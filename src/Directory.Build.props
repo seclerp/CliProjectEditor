@@ -9,7 +9,7 @@
 
     <!-- Style -->
     <ItemGroup>
-        <PackageReference Include="StyleCop.Analyzers" Version="1.2.0-beta.321" PrivateAssets="all" />
+        <PackageReference Include="StyleCop.Analyzers" Version="1.2.0-beta.354" PrivateAssets="all" />
         <AdditionalFiles Include="$(MSBuildThisFileDirectory)\style\stylecop.json" Link="stylecop.json" />
         <None Include="$(CodeAnalysisRuleSet)" Condition="'$(CodeAnalysisRuleSet)' != ''" Link="%(Filename)%(Extension)" Visible="false" />
     </ItemGroup>
